@@ -9,6 +9,8 @@
 import Foundation
 import AVFoundation
 
+setbuf(__stdoutp, nil);
+
 let xRecord_Bridge: XRecord_Bridge = XRecord_Bridge();
 
 func quit(exitCode: Int32!) {
